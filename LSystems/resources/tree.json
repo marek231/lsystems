@@ -1,0 +1,44 @@
+{
+    "Tree": {
+        "axiom": "F",
+        "angle": 22.5,
+        "rules": {
+            "F": "FF+[+F-F-F]-[-F+F+F]"
+        }
+    },
+    
+    "Koch Snowflake": {
+        "axiom": "F--F--F",
+        "angle": 60.0,
+        "rules": {
+            "F": "F+F--F+F"
+        } 
+    },
+    
+    "A bush": {
+        "axiom": "X",
+        "angle": 20.0,
+        "rules": {
+            "F": "FF",
+            "X": "F[+X]F[-X]+X"
+        }
+    },
+    
+    "Sierpinski carpet": {
+        "axiom": "F",
+        "angle": 90.0,
+        "rules": {
+            "F": "FFF[+FFF+FFF+FFF]"
+        }
+    },
+    
+    "Sierpinski gasket": {
+        "axiom": "FX",
+        "angle": 60.0,
+        "rules": {
+            "F": "Z",
+            "X": "+FY-FX-FY+",
+            "Y": "-FX+FY+FX-"
+        }
+    }
+}
